@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:9b356779-8c16-4f67-873a-f23c4db6cfe6#"
+     xml:base="urn:webprotege:ontology:9b356779-8c16-4f67-873a-f23c4db6cfe6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:9b356779-8c16-4f67-873a-f23c4db6cfe6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#creator -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#creator">
+        <rdfs:label xml:lang="en">rdfs:creator</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#data -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#data">
+        <rdfs:label xml:lang="en">rdfs:data</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#date">
+        <rdfs:label xml:lang="en">rdfs:date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#description">
+        <rdfs:label xml:lang="en">rdfs:description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#rights -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#rights">
+        <rdfs:label xml:lang="en">rdfs:rights</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subject -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subject">
+        <rdfs:label xml:lang="en">rdfs:subject</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4W4LMUx6u0hw1AGlwd8v7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4W4LMUx6u0hw1AGlwd8v7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lInjrtD16G18LVvbvG080"/>
+        <rdfs:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barry Jenkins</rdfs:creator>
+        <rdfs:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</rdfs:date>
+        <rdfs:label xml:lang="en">Moonlight</rdfs:label>
+        <rdfs:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan B Entertainment</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6CdePrleiLFRX0qR1wCuu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6CdePrleiLFRX0qR1wCuu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Komedi filmi, bir filmin ana vurgusunun mizah olduğu türdür. Bu tür filmler izleyiciyi eğlendirmek amacıyla tasarlanmıştır ve gerçek hayattaki karakteristiklerin sık sık mizahi etkisi abartılmaya çalışılır. Bu tür filmler genellikle mutlu bir sonla biterler.</rdfs:description>
+        <rdfs:label xml:lang="en">Komedi Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R729ZTfCUlDpWjbkDXivgYU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R729ZTfCUlDpWjbkDXivgYU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxjLPR4OeKfzB8hLGQO2v4"/>
+        <rdfs:creator xml:lang="en">Umit Unal</rdfs:creator>
+        <rdfs:date xml:lang="en">2009</rdfs:date>
+        <rdfs:label xml:lang="en">Golgesizler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCNHTZNzcmQlP2caLazwFaE"/>
+        <rdfs:description xml:lang="en">Türk sineması ürünü olan yerli filmler, Türkiye&apos;deki film endüstrisine dair faaliyetleri ve sinema kültürünü kapsamaktadır. Türkiye&apos;de sinemanın geçmişi Osmanlı İmparatorluğu dönemlerine kadar uzanmaktadır. Başlangıç tarihi tam olarak bilinmese de anadoluya sinemanın gelişinin II. Abdülhamit döneminde gerçekleştiği varsayılmaktadır.</rdfs:description>
+        <rdfs:label xml:lang="en">Yerli Filmler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7WjpZjD0xKvWZFQ8mdy5op -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7WjpZjD0xKvWZFQ8mdy5op">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNaVA8vSoXV2siNHwxFpc7"/>
+        <rdfs:creator xml:lang="en">Majid Majidi</rdfs:creator>
+        <rdfs:date xml:lang="en">1999</rdfs:date>
+        <rdfs:label xml:lang="en">The Color Of Paradise</rdfs:label>
+        <rdfs:rights xml:lang="en">Majid Majidi</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kjBKcRCIfLEIZZd1GAZsU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7kjBKcRCIfLEIZZd1GAZsU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6CdePrleiLFRX0qR1wCuu"/>
+        <rdfs:creator xml:lang="en">Omer Vargı</rdfs:creator>
+        <rdfs:date xml:lang="en">1999</rdfs:date>
+        <rdfs:label xml:lang="en">Her Sey Cok Güzel Olacak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pryh5ML2jflBPQxnCeQSW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pryh5ML2jflBPQxnCeQSW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6CdePrleiLFRX0qR1wCuu"/>
+        <rdfs:creator xml:lang="en">Zeki Alasya</rdfs:creator>
+        <rdfs:date xml:lang="en">1977</rdfs:date>
+        <rdfs:label xml:lang="en">Aslan Bacanak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wzIeqmZIfKV86Q6y8lFIE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wzIeqmZIfKV86Q6y8lFIE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Film ve televizyonda drama, ton olarak mizahtan daha ciddi olması amaçlanan bir anlatı kurgu kategorisidir.</rdfs:description>
+        <rdfs:label xml:lang="en">Dram Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R86b5yetrGITTlNhp9NQcaQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R86b5yetrGITTlNhp9NQcaQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuxMUsNv0mTmDd3DThFGaN"/>
+        <rdfs:creator xml:lang="en">Nitesh Tiwari</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Dangal</rdfs:label>
+        <rdfs:rights xml:lang="en">Aamir Khan Productions</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89j9pQ236Ms1dpizF3KD99 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R89j9pQ236Ms1dpizF3KD99">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC3Ampw7nb43W3as01Hgw2R"/>
+        <rdfs:creator xml:lang="en">Andrei Zvyagintsev</rdfs:creator>
+        <rdfs:date xml:lang="en">2012</rdfs:date>
+        <rdfs:label xml:lang="en">Izgnanie</rdfs:label>
+        <rdfs:rights xml:lang="en">Andrei Zvyagintsev</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8B9Eb9inXzDvqnOxMOOPfl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8B9Eb9inXzDvqnOxMOOPfl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuxMUsNv0mTmDd3DThFGaN"/>
+        <rdfs:creator xml:lang="en">Kiran Rao</rdfs:creator>
+        <rdfs:date xml:lang="en">2011</rdfs:date>
+        <rdfs:label xml:lang="en">Mumbai Diaries</rdfs:label>
+        <rdfs:rights xml:lang="en">Kiran Rao</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JRKSCNt4zlyw3gWNUIbpy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8JRKSCNt4zlyw3gWNUIbpy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNaVA8vSoXV2siNHwxFpc7"/>
+        <rdfs:creator xml:lang="en">Asghar Farhadi</rdfs:creator>
+        <rdfs:date xml:lang="en">2011</rdfs:date>
+        <rdfs:label xml:lang="en">A Separation</rdfs:label>
+        <rdfs:rights xml:lang="en">Asghar Farhadi</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TD2W6cKrA1I48dA9eKe6c -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8TD2W6cKrA1I48dA9eKe6c">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmhE61WraUh42ljKXd238P"/>
+        <rdfs:creator xml:lang="en">Anne Fontaine</rdfs:creator>
+        <rdfs:date xml:lang="en">2012</rdfs:date>
+        <rdfs:label xml:lang="en">Coco Before Chanel</rdfs:label>
+        <rdfs:rights xml:lang="en">Caroline Benjo</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8i0wIW9kEqAbDcEUnO28rh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8i0wIW9kEqAbDcEUnO28rh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkZ5nKhwu0qEdKeFmb5RS6"/>
+        <rdfs:creator xml:lang="en">Mithat Gökçe</rdfs:creator>
+        <rdfs:date xml:lang="en">2020</rdfs:date>
+        <rdfs:label xml:lang="en">Maceracı Yuzgecler: Buyuk Gosteri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lInjrtD16G18LVvbvG080 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lInjrtD16G18LVvbvG080">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">Amerika Birleşik Devletleri sineması, Amerikan sineması veya genellikle kullanılan ismiyle Hollywood, 20. yüzyılın başlarından bu yana dünya çapında sinema üzerinde derin bir etkisi olan ABD menşeli sinema sektörüdür.</rdfs:description>
+        <rdfs:label xml:lang="en">Amerikan Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qjbY9Eh6lHJTMhMezffUg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qjbY9Eh6lHJTMhMezffUg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAF8dFPZZ8eHfb6XDDsIOg"/>
+        <rdfs:creator xml:lang="en">Akira Kurosawa</rdfs:creator>
+        <rdfs:date xml:lang="en">1950</rdfs:date>
+        <rdfs:label xml:lang="en">Rashomon</rdfs:label>
+        <rdfs:rights xml:lang="en">Daiei Motion Picture Company</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCNHTZNzcmQlP2caLazwFaE"/>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Ülkemiz sineması dışında üretilen ve gösterime çıkan bütün filmleri ve sinema ürünlerini kapsamaktadır.</rdfs:description>
+        <rdfs:label xml:lang="en">Yabancı Filmler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xJTzuWUW9ICuF9lAkkn5Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xJTzuWUW9ICuF9lAkkn5Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lInjrtD16G18LVvbvG080"/>
+        <rdfs:creator xml:lang="en">Howard Hawks</rdfs:creator>
+        <rdfs:date xml:lang="en">1938</rdfs:date>
+        <rdfs:label xml:lang="en">Bringing Up Baby</rdfs:label>
+        <rdfs:rights xml:lang="en">RKO Radio Pictures Inc.</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xPS6O5auGgMyVbpbbICQw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xPS6O5auGgMyVbpbbICQw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wzIeqmZIfKV86Q6y8lFIE"/>
+        <rdfs:creator xml:lang="en">Emre Erdogdu</rdfs:creator>
+        <rdfs:date xml:lang="en">2018</rdfs:date>
+        <rdfs:label xml:lang="en">Kar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91j0csEnmwTgkqtN9gLptI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91j0csEnmwTgkqtN9gLptI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Bilimkurgu filmi, sıklıkla fütüristik uzay mekikleri, robotlar veya diğer teknolojiler eşliğinde; dünya dışı yaşam formları, yabancı gezegenler ve zaman yolculuğu gibi hayali fenomenlerin spekülatif ve bilime dayalı tasvirlerini kullanan film türüdür.</rdfs:description>
+        <rdfs:label xml:lang="en">Bilim Kurgu Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9D8VBtCHHWovfh63L1lnpx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9D8VBtCHHWovfh63L1lnpx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8lInjrtD16G18LVvbvG080"/>
+        <rdfs:creator xml:lang="en">Quentin Tarantino</rdfs:creator>
+        <rdfs:date xml:lang="en">1994</rdfs:date>
+        <rdfs:label xml:lang="en">Pulp Fiction</rdfs:label>
+        <rdfs:rights xml:lang="en">Miramax Films</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gO4mmVKZCL6NJH1sG4u1S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gO4mmVKZCL6NJH1sG4u1S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RddAhWVqkblQcwjE3GwK4O"/>
+        <rdfs:creator xml:lang="en">Hakan Sahin</rdfs:creator>
+        <rdfs:date xml:lang="en">2010</rdfs:date>
+        <rdfs:label xml:lang="en">Sultanın Sırrı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAF8dFPZZ8eHfb6XDDsIOg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAF8dFPZZ8eHfb6XDDsIOg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">Asya ülkelerinde üretilen ve gösterime giren filmleri kapsamaktadır.</rdfs:description>
+        <rdfs:label xml:lang="en">Asya Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFDT3BxwUNNpnH9jCLMGbK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFDT3BxwUNNpnH9jCLMGbK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAF8dFPZZ8eHfb6XDDsIOg"/>
+        <rdfs:creator xml:lang="en">Wai Keung Lau,</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Infernal Affairs</rdfs:label>
+        <rdfs:rights xml:lang="en">Basic Pictures</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZo0vx1xOV4bTMw8VJmQGW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZo0vx1xOV4bTMw8VJmQGW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wzIeqmZIfKV86Q6y8lFIE"/>
+        <rdfs:creator xml:lang="en">Cagan Irmak</rdfs:creator>
+        <rdfs:date xml:lang="en">2009</rdfs:date>
+        <rdfs:label xml:lang="en">Karanlıktakiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBe16mBuMViBrJzWpl5TpVZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBe16mBuMViBrJzWpl5TpVZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdseJaP9ckO1CkIduWLXn3"/>
+        <rdfs:creator xml:lang="en">Umur Turagay</rdfs:creator>
+        <rdfs:date xml:lang="en">2019</rdfs:date>
+        <rdfs:label xml:lang="en">Guzelligin Portresi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBkZPDMZotY75EixXcli4xc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBkZPDMZotY75EixXcli4xc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBAF8dFPZZ8eHfb6XDDsIOg"/>
+        <rdfs:creator xml:lang="en">Isao Takahata</rdfs:creator>
+        <rdfs:date xml:lang="en">2017</rdfs:date>
+        <rdfs:label xml:lang="en">Grave of the Fireflies</rdfs:label>
+        <rdfs:rights xml:lang="en">Toru Hara</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmD2NxJvjFebWKcYuZ2uas -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmD2NxJvjFebWKcYuZ2uas">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNaVA8vSoXV2siNHwxFpc7"/>
+        <rdfs:creator xml:lang="en">Vincent Paronnaud</rdfs:creator>
+        <rdfs:date xml:lang="en">2007</rdfs:date>
+        <rdfs:label xml:lang="en">Persepolis</rdfs:label>
+        <rdfs:rights xml:lang="en">Vincent Paronnaud</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmhE61WraUh42ljKXd238P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmhE61WraUh42ljKXd238P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">Fransız sineması bir yüzyılı aşkın bir süredir Cannes film festivaline kadar oluşturduğu kendine özgü kültürüyle başta Avrupa sineması olmak üzere dünya sinemalarını birçok yönden etkilemiştir. Fransız film endüstrisi, 19. yüzyılın sonlarında ve 20. yüzyılda dünyanın en önemli film endüstrisi olmuştur.</rdfs:description>
+        <rdfs:label xml:lang="en">Fransız Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpz3KT2eNb4NdtV7281Xjf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpz3KT2eNb4NdtV7281Xjf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmhE61WraUh42ljKXd238P"/>
+        <rdfs:creator xml:lang="en">Pierre Morel</rdfs:creator>
+        <rdfs:date xml:lang="en">2004</rdfs:date>
+        <rdfs:label xml:lang="en">District B13</rdfs:label>
+        <rdfs:rights xml:lang="en">Pierre Morel</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrrecsI6X7d9QLXev6o4Re -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBrrecsI6X7d9QLXev6o4Re">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdseJaP9ckO1CkIduWLXn3"/>
+        <rdfs:creator xml:lang="en">Hasan Karacadag</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Magi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxjLPR4OeKfzB8hLGQO2v4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxjLPR4OeKfzB8hLGQO2v4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Sanat filmi ticari kaygılardan çok, insanları düşünmeye sevk etmeyi amaçlayan filmlere verilen addır. Ayrıca estetik ve edebi bir zevk uyandırır ve izleyenlere yeni pencereler açar. Sanatsal ögeler taşır.</rdfs:description>
+        <rdfs:label xml:lang="en">Sanat Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0SP0gEkPFwtQSghsEEu9Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0SP0gEkPFwtQSghsEEu9Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrXjn8MLziVBfk0ySrYKrl"/>
+        <rdfs:creator xml:lang="en">Otto Bathurst</rdfs:creator>
+        <rdfs:date xml:lang="en">2018</rdfs:date>
+        <rdfs:label xml:lang="en">Robin Hood</rdfs:label>
+        <rdfs:rights xml:lang="en">Jennifer Davisson</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3Ampw7nb43W3as01Hgw2R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC3Ampw7nb43W3as01Hgw2R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">Rusya&apos;da üretilen ve gösterime giren filmleri kapsamaktadır.</rdfs:description>
+        <rdfs:label xml:lang="en">Rus Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6fWHEQtf6z5dFpAHIYMyB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6fWHEQtf6z5dFpAHIYMyB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxjLPR4OeKfzB8hLGQO2v4"/>
+        <rdfs:creator xml:lang="en">Yesim Ustaoglu</rdfs:creator>
+        <rdfs:date xml:lang="en">2000</rdfs:date>
+        <rdfs:label xml:lang="en">Gunese Yolculuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCAAC4Bu2LCG3t2k7qo99oK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCAAC4Bu2LCG3t2k7qo99oK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkZ5nKhwu0qEdKeFmb5RS6"/>
+        <rdfs:creator xml:lang="en">Ayse Unal</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Kötü Kedi Serafettin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCIw7IkM3719OLo6kjoDXhh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCIw7IkM3719OLo6kjoDXhh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxjLPR4OeKfzB8hLGQO2v4"/>
+        <rdfs:creator xml:lang="en">Senem Tuzen</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Ana Yurdu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMqGQkIKdXmXx8Y7Thc6vV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMqGQkIKdXmXx8Y7Thc6vV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R91j0csEnmwTgkqtN9gLptI"/>
+        <rdfs:creator xml:lang="en">Hulki Saner</rdfs:creator>
+        <rdfs:date xml:lang="en">1973</rdfs:date>
+        <rdfs:label xml:lang="en">Turist Omer Uzay Yolunda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNHTZNzcmQlP2caLazwFaE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNHTZNzcmQlP2caLazwFaE">
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Film, hareketli resimlerin seri şekilde gösterilmesi ile ortaya çıkan bir yapıttır. Filmler, gerçek insan ve objelerin kamerayla kayıt edilmesiyle veya animasyon teknikleri, özel efektler gibi teknikler ile her iki unsurun yaratılmasıyla ortaya çıkar.</rdfs:description>
+        <rdfs:label xml:lang="en">Filmler</rdfs:label>
+        <rdfs:subject xml:lang="en">Yabancı Filmler</rdfs:subject>
+        <rdfs:subject xml:lang="en">Yerli Filmler</rdfs:subject>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPnlLY5IxPHAE7f2iKrASb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCPnlLY5IxPHAE7f2iKrASb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC3Ampw7nb43W3as01Hgw2R"/>
+        <rdfs:creator xml:lang="en">S. M. Eisenstein</rdfs:creator>
+        <rdfs:date xml:lang="en">1925</rdfs:date>
+        <rdfs:label xml:lang="en">Bronenosets Potemkin</rdfs:label>
+        <rdfs:rights xml:lang="en">Jacob Bliokh</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWEp1wXn10X5sof7LHtrgP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWEp1wXn10X5sof7LHtrgP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuxMUsNv0mTmDd3DThFGaN"/>
+        <rdfs:label xml:lang="en">Barfi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdseJaP9ckO1CkIduWLXn3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCdseJaP9ckO1CkIduWLXn3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahıskalı</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Korku filmi izleyicilerde korku, dehşet, terör veya tiksinti uyandırmak amacıyla kurgulanan bir film türüdür. Korku filmlerinin konusunu gündelik hayata sızan ve bazen doğaüstü şekillerde ortaya çıkan şeytani güçler, olaylar ya da karakterler oluşturur.</rdfs:description>
+        <rdfs:label xml:lang="en">Korku Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkZ5nKhwu0qEdKeFmb5RS6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkZ5nKhwu0qEdKeFmb5RS6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahiskali</rdfs:creator>
+        <rdfs:date xml:lang="en">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Animasyon, birkaç resmin arka arkaya hızlı bir şekilde gösterilmesiyle elde edilen hareketli görüntüdür. Animasyon filmleri bu teknikten yola çıkmaktadır.</rdfs:description>
+        <rdfs:label xml:lang="en">Animasyon Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAvG6JDoub7ZItqHpJRLuy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAvG6JDoub7ZItqHpJRLuy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC3Ampw7nb43W3as01Hgw2R"/>
+        <rdfs:creator xml:lang="en">Andrei Konchalovsky</rdfs:creator>
+        <rdfs:date xml:lang="en">2002</rdfs:date>
+        <rdfs:label xml:lang="en">Dom Durakov</rdfs:label>
+        <rdfs:rights xml:lang="en">Bac Films</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHZthcrErezkCxkYTKNEC2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHZthcrErezkCxkYTKNEC2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrXjn8MLziVBfk0ySrYKrl"/>
+        <rdfs:creator xml:lang="en">Roger Michell</rdfs:creator>
+        <rdfs:date xml:lang="en">2017</rdfs:date>
+        <rdfs:label xml:lang="en">My Cousın Rachel</rdfs:label>
+        <rdfs:rights xml:lang="en">Kevin Loader</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDM8wplNZHcS71j9QQZSuoM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDM8wplNZHcS71j9QQZSuoM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCkZ5nKhwu0qEdKeFmb5RS6"/>
+        <rdfs:creator xml:lang="en">Nermin Er</rdfs:creator>
+        <rdfs:date xml:lang="en">2014</rdfs:date>
+        <rdfs:label xml:lang="en">Rimolar ve Zimolar: Kasabada Barıs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYyH1PUsCcVKm26eEwRvx6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDYyH1PUsCcVKm26eEwRvx6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmhE61WraUh42ljKXd238P"/>
+        <rdfs:creator xml:lang="en">Luc Besson</rdfs:creator>
+        <rdfs:date xml:lang="en">1994</rdfs:date>
+        <rdfs:label xml:lang="en">Leon: The Professional</rdfs:label>
+        <rdfs:rights xml:lang="en">Luc Besson</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZlT6Z3Coi14VG4jeia6zx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZlT6Z3Coi14VG4jeia6zx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RddAhWVqkblQcwjE3GwK4O"/>
+        <rdfs:creator xml:lang="en">Burak Akyol</rdfs:creator>
+        <rdfs:date xml:lang="en">2019</rdfs:date>
+        <rdfs:label xml:lang="en">Meteler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdD8FNy6Sd2fxoEGgBveK1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdD8FNy6Sd2fxoEGgBveK1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R91j0csEnmwTgkqtN9gLptI"/>
+        <rdfs:creator xml:lang="en">Atıf Yılmaz</rdfs:creator>
+        <rdfs:date xml:lang="en">1971</rdfs:date>
+        <rdfs:label xml:lang="en">Battal Gazi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpzPauyepwwxoFQ5mtMjOq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDpzPauyepwwxoFQ5mtMjOq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7wzIeqmZIfKV86Q6y8lFIE"/>
+        <rdfs:creator xml:lang="en">Cagan Irmak</rdfs:creator>
+        <rdfs:date xml:lang="en">2005</rdfs:date>
+        <rdfs:label xml:lang="en">Babam ve Oglum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyxklplAS31qpjrkpVpAqd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyxklplAS31qpjrkpVpAqd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RddAhWVqkblQcwjE3GwK4O"/>
+        <rdfs:creator xml:lang="en">Turker Inanoglu</rdfs:creator>
+        <rdfs:date xml:lang="en">1973</rdfs:date>
+        <rdfs:label xml:lang="en">Soyguncular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFJ3ILq5hYwoSpUb55AtT7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFJ3ILq5hYwoSpUb55AtT7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RrXjn8MLziVBfk0ySrYKrl"/>
+        <rdfs:creator xml:lang="en">Thea Sharrock</rdfs:creator>
+        <rdfs:date xml:lang="en">2016</rdfs:date>
+        <rdfs:label xml:lang="en">Me Before You</rdfs:label>
+        <rdfs:rights xml:lang="en">Karen Rosenfelt</rdfs:rights>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RG9TsiJCRbApUUmQMX7O6P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RG9TsiJCRbApUUmQMX7O6P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCdseJaP9ckO1CkIduWLXn3"/>
+        <rdfs:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durul Taylan</rdfs:creator>
+        <rdfs:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</rdfs:date>
+        <rdfs:label xml:lang="en">Kucuk Kıyamet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNaVA8vSoXV2siNHwxFpc7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNaVA8vSoXV2siNHwxFpc7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">İran sineması, İran&apos;da sinemaya dair faaliyetleri ve sinema kültürünü kapsar.</rdfs:description>
+        <rdfs:label xml:lang="en">İran Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RddAhWVqkblQcwjE3GwK4O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RddAhWVqkblQcwjE3GwK4O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7C9sZhVQeQrg0nycoIlls"/>
+        <rdfs:creator xml:lang="en">Aysel Nasibahıskalı</rdfs:creator>
+        <rdfs:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</rdfs:date>
+        <rdfs:description xml:lang="en">Bir veya daha fazla kahramanın ön plânda olduğu, genellikle ayrıntılı dövüş sahneleri, şiddet ve çılgın kovalamaca sahneleri içeren bir film türüdür.</rdfs:description>
+        <rdfs:label xml:lang="en">Aksiyon-Macera Filmi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrXjn8MLziVBfk0ySrYKrl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrXjn8MLziVBfk0ySrYKrl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">İngiltere&apos;de sinemaya dair faaliyetleri ve sinema kültürünü kapsar.</rdfs:description>
+        <rdfs:label xml:lang="en">İngiliz Sineması</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsEKSGTkFppI8rIzvK8dXS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsEKSGTkFppI8rIzvK8dXS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R6CdePrleiLFRX0qR1wCuu"/>
+        <rdfs:creator xml:lang="en">Orhan Aksoy</rdfs:creator>
+        <rdfs:date xml:lang="en">1973</rdfs:date>
+        <rdfs:label xml:lang="en">Hayat Bayram Olsa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtLmd0Vr5Y5zNXuZ7fzRra -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtLmd0Vr5Y5zNXuZ7fzRra">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R91j0csEnmwTgkqtN9gLptI"/>
+        <rdfs:creator xml:lang="en">Tunç Başaran</rdfs:creator>
+        <rdfs:date xml:lang="en">1969</rdfs:date>
+        <rdfs:label xml:lang="en">Tarkan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuxMUsNv0mTmDd3DThFGaN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuxMUsNv0mTmDd3DThFGaN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8vaKA300kE1OA1RSwEV7ib"/>
+        <rdfs:description xml:lang="en">Hint sineması diye Hindistan yarımadasında üretilen sinema filmleri adlandırılır. Amerikan film üretiminin yanı sıra Hint Sineması sayısal olarak dünyada söz sahibidir. Günde 3 film çekerek 1980&apos;li yıllarda Amerikan Sinemasını dahi geçmiştir.</rdfs:description>
+        <rdfs:label xml:lang="en">Hint Sineması</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
